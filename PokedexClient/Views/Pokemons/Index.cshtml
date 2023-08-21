@@ -1,0 +1,14 @@
+@{
+    Layout = "_Layout";
+}
+
+<h1>This are our pokemons</h1>
+
+<ul>
+@foreach (Pokemon pokemon in Model)
+{
+    <li>@pokemon.Name</li>
+}
+</ul>
+
+<p>@Html.ActionLink("Home", "index", "Home")</p>
