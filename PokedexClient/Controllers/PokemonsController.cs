@@ -21,5 +21,6 @@ public class PokemonsController : Controller
     {
         List<Pokemon> model = _db.Pokemons.ToList();
         return View(model);
+        
     }
 }

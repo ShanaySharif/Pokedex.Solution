@@ -1,10 +1,11 @@
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using PokedexClient.Models;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Builder;
+using PokedexClient.Models;
+using System.Linq;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +34,15 @@ builder.Services.AddDbContext<PokedexContext>(
 // });
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+  var context = scope.ServiceProvider.GetRequiredService<PokedexContext>();
+  if (!context.Pokemons.Any())
+  {
+    PokemonDataSeeder.Seed(context);
+  }
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
