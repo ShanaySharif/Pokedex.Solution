@@ -2,13 +2,19 @@
     Layout = "_Layout";
 }
 
-<h1>This are our pokemons</h1>
+<h1>These are our pokemons</h1>
 
-<ul>
-@foreach (Pokemon pokemon in Model)
-{
-    <li>@pokemon.Name</li>
-}
-</ul>
+<div class="card-container">
+    @foreach (Pokemon pokemon in Model)
+    {
+        <div class="card-content">
+            <p>@pokemon.Number</p>
+            <p>@pokemon.Name</p>
+            <p>@pokemon.Type1</p>
+            <p>@pokemon.Type2</p>
+         
+        </div>
+    }
+</div>
 
 <p>@Html.ActionLink("Home", "index", "Home")</p>
