@@ -5,3 +5,12 @@
 <div class="text-center">
 <h1> WELCOME TO THE POKEDEX </h1>
 </div>
+<div class= "container">
+    <h1>Pokedex Search</h1>
+        @using (Html.BeginForm("Search", "Pokemons", FormMethod.Post ))
+        {
+            <label for="name">Pokemon Name: </label>
+            <input type="text" name="name" />
+            <button type="submit" class="btn btn-success">Search</button>
+        }
+    </div>

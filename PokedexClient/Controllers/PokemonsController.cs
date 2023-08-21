@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq; 
 
+
 namespace PokemonsController.Controllers;
 
 public class PokemonsController : Controller
@@ -21,6 +22,19 @@ public class PokemonsController : Controller
     {
         List<Pokemon> model = _db.Pokemons.ToList();
         return View(model);
-        
+    }
+
+    public ActionResult Search()
+    {
+        List<Pokemon> model = _db.Pokemons.ToList();
+        return View(model);
+    }
+
+    // Post Search()
+    [HttpPost]
+    public ActionResult Search(string name)
+    {
+        List<Pokemon> model = _db.Pokemons.Where(p => p.Name.ToLower() == name.ToLower().Trim() ).ToList();
+        return View(model);
     }
 }

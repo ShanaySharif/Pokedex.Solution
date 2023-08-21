@@ -2,10 +2,15 @@
     Layout = "_Layout";
 }
 
-<h1>These are our pokemons</h1>
-
-
-
+<div class= "container">
+    <h1>Pokedex Search</h1>
+        @using (Html.BeginForm("Search", "Pokemons", FormMethod.Post ))
+        {
+            <label for="name">Pokemon Name: </label>
+            <input type="text" name="name" />
+            <button type="submit" class="btn btn-success">Search</button>
+        }
+    </div>
 
 <div class="card-container">
     @foreach (Pokemon pokemon in Model)
@@ -20,3 +25,4 @@
 </div>
 
 <p>@Html.ActionLink("Home", "index", "Home")</p>
+
