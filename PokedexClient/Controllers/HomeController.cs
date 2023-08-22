@@ -6,6 +6,7 @@ namespace PokedexClient.Controllers;
 
 public class HomeController : Controller
 {
+    
     private readonly PokedexContext _db;
     
     public HomeController(PokedexContext db)

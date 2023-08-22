@@ -15,16 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/shankaronmohamed/Desktop/epicodus/c\#/Pokedex.Solution/PokedexClient/Views/Account/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/shankaronmohamed/Desktop/epicodus/c\#/Pokedex.Solution/PokedexClient/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/shankaronmohamed/Desktop/epicodus/c\#/Pokedex.Solution/PokedexClient/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/shankaronmohamed/Desktop/epicodus/c\#/Pokedex.Solution/PokedexClient/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/shankaronmohamed/Desktop/epicodus/c\#/Pokedex.Solution/PokedexClient/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/shankaronmohamed/Desktop/epicodus/c\#/Pokedex.Solution/PokedexClient/Views/Accounts/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/shankaronmohamed/Desktop/epicodus/c\#/Pokedex.Solution/PokedexClient/Views/Home/Index.cshtml]
