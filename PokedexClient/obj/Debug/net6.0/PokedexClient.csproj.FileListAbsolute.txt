@@ -1,11 +1,3 @@
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.csproj.AssemblyReference.cache
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.GeneratedMSBuildEditorConfig.editorconfig
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.AssemblyInfoInputs.cache
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.AssemblyInfo.cs
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.csproj.CoreCompileInputs.cache
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.MvcApplicationPartsAssemblyInfo.cache
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.RazorAssemblyInfo.cache
-/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.RazorAssemblyInfo.cs
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/bin/Debug/net6.0/appsettings.json
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/bin/Debug/net6.0/PokedexClient.staticwebassets.runtime.json
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/bin/Debug/net6.0/PokedexClient
@@ -22,6 +14,14 @@
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/bin/Debug/net6.0/MySqlConnector.dll
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.csproj.AssemblyReference.cache
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.AssemblyInfoInputs.cache
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.AssemblyInfo.cs
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.csproj.CoreCompileInputs.cache
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.MvcApplicationPartsAssemblyInfo.cache
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.RazorAssemblyInfo.cache
+/Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/PokedexClient.RazorAssemblyInfo.cs
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/staticwebassets.build.json
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/staticwebassets.development.json
 /Users/shankaronmohamed/Desktop/epicodus/c#/Pokedex.Solution/PokedexClient/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css

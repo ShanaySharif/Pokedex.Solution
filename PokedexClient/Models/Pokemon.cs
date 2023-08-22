@@ -18,6 +18,5 @@ public class Pokemon
     public int  Special { get; set; }
     public int  Speed { get; set; }
     
-
     // public Account User { get; set; }
 }

@@ -5,7 +5,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Builder;
 using PokedexClient.Models;
 using System.Linq;
-
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,19 +20,19 @@ builder.Services.AddDbContext<PokedexContext>(
                 )
                 );
 
-// builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-//           .AddEntityFrameworkStores<TreatsContext>()
-//           .AddDefaultTokenProviders();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+          .AddEntityFrameworkStores<PokedexContext>()
+          .AddDefaultTokenProviders();
 
-// builder.Services.Configure<IdentityOptions>(options =>
-// {
-//   options.Password.RequireDigit = false;
-//   options.Password.RequireLowercase = false;
-//   options.Password.RequireNonAlphanumeric = false;
-//   options.Password.RequireUppercase = false;
-//   options.Password.RequiredLength = 1;
-//   options.Password.RequiredUniqueChars = 0;
-// });
+builder.Services.Configure<IdentityOptions>(options =>
+{
+  options.Password.RequireDigit = false;
+  options.Password.RequireLowercase = false;
+  options.Password.RequireNonAlphanumeric = false;
+  options.Password.RequireUppercase = false;
+  options.Password.RequiredLength = 1;
+  options.Password.RequiredUniqueChars = 0;
+});
 
 var app = builder.Build();
 

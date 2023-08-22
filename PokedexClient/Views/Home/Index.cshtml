@@ -10,7 +10,7 @@
         @using (Html.BeginForm("Search", "Pokemons", FormMethod.Post ))
         {
             <label for="name">Pokemon Name: </label>
-            <input type="text" name="name" />
+            <input type="text" name="name" required oninvaild="setCustomValidity('Please Enter a Pokemon's Name:')"/>
             <button type="submit" class="btn btn-success">Search</button>
         }
     </div>
